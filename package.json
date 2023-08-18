@@ -2,7 +2,7 @@
   "name": "panel-toggle",
   "displayName": "panel-toggle",
   "description": "toggle pabel visibility in your vscode status bar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.81.0"
   },
