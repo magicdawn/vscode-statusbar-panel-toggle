@@ -2,6 +2,8 @@
 
 toggle pabel visibility in your vscode status bar
 
+https://marketplace.visualstudio.com/items?itemName=magicdawn.panel-toggle
+
 ## status bar toggle
 
 toggle pabel visibility in your vscode status bar
