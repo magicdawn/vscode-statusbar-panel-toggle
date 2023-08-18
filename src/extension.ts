@@ -10,7 +10,7 @@ export function activate(ctx: vscode.ExtensionContext) {
   console.log('111 panel-toggle')
 
   // create a new status bar item that we can now manage
-  statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 10)
+  statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, -100)
   statusBarItem.command = 'workbench.action.togglePanel'
   statusBarItem.text = '$(layout-panel) Panel'
   statusBarItem.show()
