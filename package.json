@@ -12,7 +12,7 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "scripts": {
@@ -21,7 +21,9 @@
     "watch": "tsc -watch -p ./",
     "pretest": "pnpm run compile && pnpm run lint",
     "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "do-package": "vsce package --no-dependencies",
+    "do-publish": "vsce publish --no-dependencies"
   },
   "devDependencies": {
     "@types/vscode": "^1.81.0",
