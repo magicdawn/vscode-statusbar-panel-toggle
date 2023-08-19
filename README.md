@@ -12,6 +12,11 @@ expect positioned at rightmost of the statusbar left part.
 
 ## Changelog
 
+### 0.1.0
+
+- clean up & refactor code
+- add demo gif
+
 ### 0.0.2
 
 update priority to `-100`
