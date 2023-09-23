@@ -6,7 +6,7 @@ import * as vscode from 'vscode'
 // Your extension is activated the very first time the command is executed
 export function activate(ctx: vscode.ExtensionContext) {
   // create a new status bar item that we can now manage
-  const barItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, -100)
+  const barItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, -Infinity)
   barItem.command = 'workbench.action.togglePanel'
   barItem.text = '$(layout-panel) Panel'
   barItem.show()
